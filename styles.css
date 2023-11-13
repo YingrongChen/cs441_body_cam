@@ -11,6 +11,7 @@
     align-items: center; 
     justify-content: center;
     display: flex;
+    margin: 1%;
 }
 
 .TvBox {
@@ -31,12 +32,9 @@
 }
 
 .Statistics {
-    background-size: cover;
+    background-size: 100% 100%;
     background-image: url("images/paper.jpg");
     position: relative;
-    display: contents;
-    align-items: center ;
-    justify-content: center;
 }
 /* Styles for the four columns at the bottom */
 .Column-wrapper{
@@ -56,4 +54,12 @@
     transition: height 0.5s;
     width: 25%;
 }
-/* Add styles for other classes as needed */
+
+.title{
+    text-align: center;
+}
+
+.Public-opinion{
+    display: block;
+    align-content: center;
+}
